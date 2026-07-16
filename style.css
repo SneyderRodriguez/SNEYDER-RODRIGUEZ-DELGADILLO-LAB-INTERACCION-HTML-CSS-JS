@@ -5,7 +5,7 @@
   font-family: 'Segoe UI', sans-serif;
 }
 body {
-  background-color: #252440;
+  background-color: #06162b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,13 +13,13 @@ body {
   padding: 20px;
 }
 #x {
-  background-color: #2d2c55;
+  background-color: #0b2a4a;
   border-radius: 16px;
-  padding: 20px;
-  max-width: 500px;
+  /* padding: 20px; */
+  max-width: 250px;
   width: 50%;
   color: #eee;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  box-shadow: 0 20px 60px rgba(63, 54, 156, 0.719);
 }
 h1 {
   font-family: 'AdwaitaMono Nerd Font', AdwaitaMono Nerd Font, sans-serif;
@@ -34,9 +34,9 @@ h1 {
 }
 #btnIncremento {
   margin-top: 24px;
-  width: 20%;
+  /* width: 20%; */
   padding: 14px;
-  background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+  background: linear-gradient(135deg, #1d4d7a, #8fb3c7);
   color: white;
   border: none;
   border-radius: 10px;
@@ -47,9 +47,10 @@ h1 {
 }
 #btnDecremento {
   margin-top: 24px;
-  width: 20%;
+  float: right;
+  /* width: 20%; */
   padding: 14px;
-  background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+  background: linear-gradient(135deg, #1d4d7a, #8fb3c7);
   color: white;
   border: none;
   border-radius: 10px;
