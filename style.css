@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
   padding: 20px;
 }
-#x {
+#cuadro {
   background-color: #0b2a4a;
   border-radius: 16px;
   /* padding: 20px; */
@@ -63,4 +63,10 @@ h1 {
   font-size: 200%;
   font-weight: bold;
   text-align: center;
+}
+.color-normal{
+  color: #f2e9d8;
+}
+.color-limite{
+  color: #2a9d8f;
 }
